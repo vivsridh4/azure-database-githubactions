@@ -18,7 +18,7 @@ jobs:
     - uses: azure/mysql@v1
       with:
         server-name: vickybytes.mysql.database.azure.com
-        connection-string: ${{ secrets.AZURE_MYSQL_CONNECTION_STRING }}
+        connection-string: ${{ secrets.AZURE_MYSQL_CONNECTION_STRING_TEST }}
         sql-file: './data.sql'
 
     # Azure logout 
