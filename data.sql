@@ -7,6 +7,7 @@
 --
 -- Table structure for table `user_details`
 --
+use mydb;
 
 CREATE TABLE IF NOT EXISTS `user_details` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
