@@ -7,7 +7,9 @@
 --
 -- Table structure for table `user_details`
 --
-use mydb;
+CREATE DATABASE reactor;
+
+use reactor;
 
 CREATE TABLE employee_table(  
     id int NOT NULL AUTO_INCREMENT,  
